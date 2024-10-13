@@ -7,6 +7,7 @@ console.log(gallery)
 
 function createCard() {
     const card = gallery.map(({ id, deskPhoto, deskPhoto2x, tabPhoto, tabPhoto2x, mobPhoto, mobPhoto2x, alt, title, description }) => {
+        console.log(deskPhoto)
         return `        
             <li class="card" key=${id}>                
                 
