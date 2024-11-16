@@ -71,18 +71,15 @@ import {
     // desk29x2, tab29x2, mob29x2,
     // desk30x2, tab30x2, mob30x2,
     
-  // desk1x2, g2x2, g3x2, g4x2, g5x2, g6x2, g7x2, g8x2, g9x2, g10x2,
-  // g11x2, g12x2, g13x2, g14x2, g15x2, g16x2, g17x2, g18x2, g19x2, g20x2,
-  // g21x2, g22x2, g23x2, g24x2, g25x2, g26x2, g27x2, g28x2, g29x2, g30x2,
 } from '../images/gallery/2x/index';
 
 export const gallery = [
     {
     id: 1,
-    deskPhoto: '../images/gallery/1x/1desk@1x.jpg',
+    deskPhoto: "../images/gallery/1x/1desk@1x.jpg",
     tabPhoto: '../images/gallery/1x/1tab@1x.jpg',
     mobPhoto: '../images/gallery/1x/1mob@1x.jpg',
-    deskPhoto2x: '../images/gallery/2x/1desk@2x.jpg',
+    deskPhoto2x: "../images/gallery/2x/1desk@2x.jpg",
     tabPhoto2x: '../images/gallery/2x/1tab@2x.jpg',
     mobPhoto2x: '../images/gallery/2x/1tab@2x.jpg',
     // photo: desk1x1,
@@ -93,12 +90,12 @@ export const gallery = [
   },
   {
     id: 2,
-    deskPhoto: '../images/gallery/1x/2desk@1x.jpg',
-    tabPhoto: '../images/gallery/1x/2tab@1x.jpg',
-    mobPhoto: '../images/gallery/1x/2mob@1x.jpg',
-    deskPhoto2x: '../images/gallery/2x/2desk@2x.jpg',
-    tabPhoto2x: '../images/gallery/2x/2tab@2x.jpg',
-    mobPhoto2x: '../images/gallery/2x/2tab@2x.jpg',
+    deskPhoto: 'images/gallery/1x/2desk@1x.jpg',
+    tabPhoto: 'images/gallery/1x/2tab@1x.jpg',
+    mobPhoto: 'images/gallery/1x/2mob@1x.jpg',
+    deskPhoto2x: 'images/gallery/2x/2desk@2x.jpg',
+    tabPhoto2x: 'images/gallery/2x/2tab@2x.jpg',
+    mobPhoto2x: 'images/gallery/2x/2tab@2x.jpg',
     // photo: g2,
     title: "",
     alt: "",
