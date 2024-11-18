@@ -1,5 +1,4 @@
-import {gallery} from '../data/gallery'
-
+import { gallery } from '../data/gallery'
 const refs = {
     gallery: document.querySelector(".container__gallery"),
 };

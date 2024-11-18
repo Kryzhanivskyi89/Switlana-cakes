@@ -12,7 +12,8 @@ import {
   desk11x1, tab11x1, mob11x1,
   desk12x1, tab12x1, mob12x1,
   desk13x1, tab13x1, mob13x1,
-} from '../images/gallery/cakes/1x';
+  desk14x1, tab14x1, mob14x1,
+} from '../images/gallery/cupCakes/1x';
 
 import {
     desk1x2, tab1x2, mob1x2,
@@ -28,9 +29,10 @@ import {
     desk11x2, tab11x2, mob11x2,
     desk12x2, tab12x2, mob12x2,
     desk13x2, tab13x2, mob13x2,
-} from '../images/gallery/cakes/2x';
+    desk14x2, tab14x2, mob14x2,
+} from '../images/gallery/cupCakes/2x';
 
-export const gallery = [
+export const cupCakes = [
     {
     id: 1,
     deskPhoto: desk1x1,
@@ -187,5 +189,16 @@ export const gallery = [
     alt: "",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
   },
-
+{
+    id: 14,
+    deskPhoto: desk14x1,
+    tabPhoto: tab14x1,
+    mobPhoto: mob14x1,
+    deskPhoto2x: desk14x2,
+    tabPhoto2x: tab14x2,
+    mobPhoto2x: mob14x2,
+    title: "",
+    alt: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+  },
 ]

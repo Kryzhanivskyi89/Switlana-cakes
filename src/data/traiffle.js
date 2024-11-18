@@ -7,12 +7,8 @@ import {
   desk6x1, tab6x1, mob6x1,
   desk7x1, tab7x1, mob7x1,    
   desk8x1, tab8x1, mob8x1,
-  desk9x1, tab9x1, mob9x1,
-  desk10x1, tab10x1, mob10x1,
-  desk11x1, tab11x1, mob11x1,
-  desk12x1, tab12x1, mob12x1,
-  desk13x1, tab13x1, mob13x1,
-} from '../images/gallery/cakes/1x';
+  
+} from '../images/gallery/traiffle/1x';
 
 import {
     desk1x2, tab1x2, mob1x2,
@@ -23,14 +19,9 @@ import {
     desk6x2, tab6x2, mob6x2,
     desk7x2, tab7x2, mob7x2,
     desk8x2, tab8x2, mob8x2,
-    desk9x2, tab9x2, mob9x2,
-    desk10x2, tab10x2, mob10x2,
-    desk11x2, tab11x2, mob11x2,
-    desk12x2, tab12x2, mob12x2,
-    desk13x2, tab13x2, mob13x2,
-} from '../images/gallery/cakes/2x';
+} from '../images/gallery/traiffle/2x';
 
-export const gallery = [
+export const traiffle = [
     {
     id: 1,
     deskPhoto: desk1x1,
@@ -127,65 +118,5 @@ export const gallery = [
     alt: "",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
   },
-  {
-    id: 9,
-    deskPhoto: desk9x1,
-    tabPhoto: tab9x1,
-    mobPhoto: mob9x1,
-    deskPhoto2x: desk9x2,
-    tabPhoto2x: tab9x2,
-    mobPhoto2x: mob9x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
-  {
-    id: 10,
-    deskPhoto: desk10x1,
-    tabPhoto: tab10x1,
-    mobPhoto: mob10x1,
-    deskPhoto2x: desk10x2,
-    tabPhoto2x: tab10x2,
-    mobPhoto2x: mob10x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
-  {
-    id: 11,
-    deskPhoto: desk11x1,
-    tabPhoto: tab11x1,
-    mobPhoto: mob11x1,
-    deskPhoto2x: desk11x2,
-    tabPhoto2x: tab11x2,
-    mobPhoto2x: mob11x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
-  {
-    id: 12,
-    deskPhoto: desk12x1,
-    tabPhoto: tab12x1,
-    mobPhoto: mob12x1,
-    deskPhoto2x: desk12x2,
-    tabPhoto2x: tab12x2,
-    mobPhoto2x: mob12x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
-  {
-    id: 13,
-    deskPhoto: desk13x1,
-    tabPhoto: tab13x1,
-    mobPhoto: mob13x1,
-    deskPhoto2x: desk13x2,
-    tabPhoto2x: tab13x2,
-    mobPhoto2x: mob13x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
-
+  
 ]
