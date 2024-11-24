@@ -1,107 +1,139 @@
-.container {
-
-    &__gallery {
-        display: block;
-        
-
-        @media screen and (min-width: 768px) {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-                grid-gap: 2rem;
-            }
-    }
-}
-
-
-.container__gallery .card {
+.gallerySection {
     position: relative;
-    cursor: pointer;
+    padding: 2rem 0;
+    overflow: visible;
 }
 
-.container__gallery .card .face {
-    // width: 300px;
-    // height: 200px;
-    transition: 0.5s;
+.galleryContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
-.container .card .face.face1 {
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-}
-
-.container .card:hover .face.face1 {
-    background: #ff0057;
-    transform: translateY(0);
-}
-
-
-.container .card .face.face1 .content {
-    // opacity: 0.2;
-    transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content {
-    opacity: 1;
-}
-
-.container .card .face.face1 .content h3 {
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
+.section-title {
     text-align: center;
-    font-size: 1.5em;
+    margin-bottom: 2rem;
 }
 
-.container .card .face.face2 {
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2 {
-    transform: translateY(0);
-}
-
-.container .card .face.face2 .content p {
-    margin: 0;
+.galleryList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    list-style-type: none;
     padding: 0;
+    position: relative;
 }
 
-.container .card .face.face2 .content a {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
+.listItem {
+    position: static;
+    /* Змінили з relative на static */
+    background-color: #d0d0d0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.container .card .face.face2 .content a:hover {
-    background: #333;
-    color: #fff;
+.description {
+    text-align: center;
 }
 
-img {
-    // position: absolute;
-    top: 0;
-    height: 110%;
-    width: 450px;
-    // z-index: -1;
-    // transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-
-    @media screen and (min-width: 768px) {
-            width: 350px;
-        }
+.additional-content {
+    display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  margin-top: 1rem; /* Додаємо відступ зверху */
+  margin-bottom: 1rem; /* Додаємо відступ знизу */
 }
+
+.listItem.expanded {
+    z-index: 101;
+}
+
+.listItem.expanded .additional-content {
+    display: block;
+}
+
+/* Створюємо пустий простір після рядка */
+.spacer {
+    display: none;
+  grid-column: 1 / -1;
+  height: 0;
+  transition: height 0.3s ease;
+  margin-bottom: 2rem; /* Додаємо відступ знизу */
+}
+
+.spacer.active {
+    display: block;
+    
+}
+// .staggered-list-content {
+//     max-width: 400px;
+//     margin: 2rem auto;
+// }
+
+// .galleryList {
+//     list-style-type: none;
+//     padding: 0;
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+//     grid-gap: 2rem;
+// }
+
+// .galleryList li+li {
+//     // margin-top: 1rem;
+// }
+
+// .listItem {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     cursor: pointer;
+//     background-color: #d0d0d0;
+//     padding: 1rem;
+// }
+
+// .listItem.expanded .avatar {
+//     height: 8rem;
+//     margin-right: 0;
+//     margin-bottom: 1rem;
+// }
+
+// .line {}
+
+// .line+.line {
+//     margin-top: 1rem;
+// }
+
+// .listItem.expanded .description {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .listItem.expanded {
+//     background-color: #d0d0d0;
+//     padding: 2rem;
+//     flex-direction: column;
+// }
+
+// .additional-content {
+//     width: 100%;
+//     margin-top: 2rem;
+//     display: none;
+//     overflow: hidden;
+//     transition: height 0.5s ease, opacity 0.5s ease;
+// }
+
+// .listItem.expanded .additional-content {
+//     display: block;
+// }
+
+// .listItem.expanded .chunk {
+//     opacity: 1;
+// }
