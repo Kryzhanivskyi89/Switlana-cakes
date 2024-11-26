@@ -1,30 +1,4 @@
 
-// const listItems = document.querySelectorAll('.listItem');
-
-// listItems.forEach((item) => {
-//   item.addEventListener('click', () => {
-//     const isExpanded = item.classList.contains('expanded');
-
-//     // Закриваємо всі відкриті елементи
-//     document.querySelectorAll('.listItem.expanded').forEach((openItem) => {
-//       openItem.classList.remove('expanded');
-//     });
-
-//     // Відкриваємо поточний елемент, якщо він не був відкритий
-//     if (!isExpanded) {
-//       item.classList.add('expanded');
-//     }
-//   });
-// });
-
-// document.addEventListener('click', (event) => {
-//   if (!event.target.closest('.listItem')) {
-//     document.querySelectorAll('.listItem.expanded').forEach((item) => {
-//       item.classList.remove('expanded');
-//     });
-//   }
-// });
-
 const listItems = document.querySelectorAll('.listItem');
 const galleryList = document.querySelector('.galleryList');
 
@@ -57,8 +31,8 @@ function updateSpacerPosition(item) {
     // Додаємо відступи контенту до загальної висоти
     const contentStyles = window.getComputedStyle(content);
     const contentHeight = content.offsetHeight + 
-                         parseInt(contentStyles.marginTop) + 
-                         parseInt(contentStyles.marginBottom);
+          parseInt(contentStyles.marginTop) + 
+          parseInt(contentStyles.marginBottom);
     
     spacer.style.height = `${contentHeight + 20}px`;
     spacer.style.gridRow = currentRow + 2;
@@ -115,53 +89,3 @@ window.addEventListener('resize', () => {
     updateSpacerPosition(expandedItem);
   }
 });
-
-// const dur = 500; // Тривалість анімації в мілісекундах
-// let lastIndex = -1;
-
-// const listItems = document.querySelectorAll('.listItem');
-
-// // Додаємо обробники подій
-// listItems.forEach((item, i) => {
-//   item.addEventListener('click', () => {
-//     const isSameAsLast = i === lastIndex;
-
-//     // Закриваємо попередній елемент, якщо він інший
-//     if (lastIndex !== -1 && !isSameAsLast) {
-//       listItems[lastIndex].classList.remove('expanded');
-//       animateOut(listItems[lastIndex]);
-//     }
-
-//     // Закриваємо поточний елемент, якщо він той самий
-//     if (isSameAsLast) {
-//       item.classList.remove('expanded');
-//       animateOut(item);
-//       lastIndex = -1; // Скидаємо останній індекс
-//     } else {
-//       // Відкриваємо новий елемент
-//       item.classList.add('expanded');
-//       animateIn(item);
-//       lastIndex = i; // Оновлюємо останній індекс
-//     }
-//   });
-// });
-
-// // Анімація для відкриття
-// function animateIn(item) {
-//   const additionalContent = item.querySelector('.additional-content');
-//   if (additionalContent) {
-//     additionalContent.style.transition = `opacity ${dur}ms ease, height ${dur}ms ease`;
-//     additionalContent.style.height = `${additionalContent.scrollHeight}px`;
-//     additionalContent.style.opacity = '1';
-//   }
-// }
-
-// // Анімація для закриття
-// function animateOut(item) {
-//   const additionalContent = item.querySelector('.additional-content');
-//   if (additionalContent) {
-//     additionalContent.style.transition = `opacity ${dur}ms ease, height ${dur}ms ease`;
-//     additionalContent.style.height = '0px';
-//     additionalContent.style.opacity = '0';
-//   }
-// }

@@ -1,15 +1,43 @@
 .hero {
+    position: relative;
     // margin-top: 100px;
     @media screen and (min-width:320px) {
-        padding-top: 132px;
+        // padding-top: 132px;
     }
 
     @media screen and (min-width:1280px) {
-        padding-top: 86px;
+        // padding-top: 86px;
     }
 }
 
+.hero-title {
+    position: absolute;
+    // bottom: -200px;
+    z-index: 3;
+    text-align: center;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 1.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 1.13em;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        font-size: 60px;
+        line-height: 1.23em;
+    }
+}
 .slider-container {
+    position: relative;
+    top: 0px;
     // height: 600px;
     // display: none;
 
@@ -62,11 +90,83 @@
     }
 }
 
+.order-btn-wrapper {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.order-btn {
+    position: relative;
+    // left: 50%;
+    // top: -100%;
+    // bottom: 200px;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-bottom: 50px;
+    // transform: translate(-50%, -50%);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    appearance: none;
+    border: 0;
+    background: 0;
+    color: white;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: inherit;
+    font-weight: 500;
+    bottom: 10%;
+}
+
+.order-btn:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1);
+    border-radius: inherit;
+    mix-blend-mode: overlay;
+}
+
+.order-btn iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.2) rotate(15deg);
+    opacity: 0.25;
+    filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+.order-btn span {
+    position: relative;
+    z-index: 1;
+    opacity: 0.75;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.order-btn:hover iframe {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.order-btn:hover span {
+    opacity: 1;
+}
+
 .button-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // margin-top: 40px;
 }
 
 .slider-prev,
@@ -78,7 +178,8 @@
     background-color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
     cursor: pointer;
-    
+    right: 50%;
+    // transform: translate(100%, 0%) ;
 
     @media screen and (min-width:1200px) {
         // width: 48px;
@@ -88,7 +189,9 @@
 }
 
 .slider-prev {
+    // margin-top: 250px;
     margin-right: 40px;
+    // margin-left: 50%;
 
     @media screen and (max-width:1279px) {
         // padding: 4px 13px 4px 9px;
@@ -104,7 +207,7 @@
 }
 
 .slider-prev {
-    left: 0;
+    left: 50%;
     top: 50%;
     // transform: translateY(-50%);
 
@@ -127,58 +230,3 @@
 .slider-next:active {
     // background-color: #fff;
 }
-
-
-// .order-btn {
-//     padding: 0.75rem 1.5rem;
-//     font-size: 1rem;
-//     appearance: none;
-//     border: 0;
-//     background: 0;
-//     position: relative;
-//     color: white;
-//     font-weight: 400;
-//     border-radius: 0.5rem;
-//     overflow: hidden;
-//     font-family: inherit;
-//     font-weight: 500;
-//     bottom: 10%;
-//     left: 45%;
-// }
-
-// .order-btn:after {
-//     content: '';
-//     position: absolute;
-//     inset: 0;
-//     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1);
-//     border-radius: inherit;
-//     mix-blend-mode: overlay;
-// }
-
-// .order-btn iframe {
-//     position: absolute;
-//     left: 50%;
-//     top: 50%;
-//     transform: translate(-50%, -50%) scale(1.2) rotate(15deg);
-//     opacity: 0.25;
-//     filter: blur(5px);
-//     transition: all 0.5s ease-in-out;
-// }
-
-// .order-btn span {
-//     position: relative;
-//     z-index: 1;
-//     opacity: 0.75;
-//     color: white;
-//     transition: all 0.5s ease-in-out;
-// }
-
-// .order-btn:hover iframe {
-//     transform: translate(-50%, -50%) scale(0.5);
-//     opacity: 1;
-//     filter: blur(0);
-// }
-
-// .order-btn:hover span {
-//     opacity: 1;
-// }
