@@ -63,9 +63,9 @@ export const gallery = [
     deskPhoto2x: desk3x2,
     tabPhoto2x: tab3x2,
     mobPhoto2x: mob3x2,
-    title: "",
-    alt: "",
-    description: "July 2023"
+    title: "Полуниця-мятний мус",
+    alt: "Полуниця-мятний мус",
+    description: "Мегдальний бісквіт, полуниця/мятний мус"
   },
   {
     id: 4,
@@ -75,9 +75,9 @@ export const gallery = [
     deskPhoto2x: desk4x2,
     tabPhoto2x: tab4x2,
     mobPhoto2x: mob4x2,
-    title: "",
-    alt: "",
-    description: "July 2023"
+    title: "Чорниця-апельсин",
+    alt: "Чорниця-апельсин",
+    description: "Чорничний бісквіт, апельсиновий ганаш з чорницею. Мінімальне замовлення від 2,5 кг. Декор рахується окремо."
   },
   {
     id: 5,
@@ -99,9 +99,9 @@ export const gallery = [
     deskPhoto2x: desk6x2,
     tabPhoto2x: tab6x2,
     mobPhoto2x: mob6x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    title: "Торт цифра",
+    alt: "Торт цифра",
+    description: "Медові коржі. Начинка: манго-маракуя, вишня"
   },
   {
     id: 7,
@@ -111,9 +111,9 @@ export const gallery = [
     deskPhoto2x: desk7x2,
     tabPhoto2x: tab7x2,
     mobPhoto2x: mob7x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    title: "Торт цифра",
+    alt: "Торт цифра",
+    description: "Медові коржі. Начинка: манго-маракуя, чорниця"
   },
   {
     id: 8,
@@ -147,9 +147,9 @@ export const gallery = [
     deskPhoto2x: desk10x2,
     tabPhoto2x: tab10x2,
     mobPhoto2x: mob10x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    title: "Чізкейк",
+    alt: "Чізкейк",
+    description: "Класичний з солодощами"
   },
   {
     id: 11,

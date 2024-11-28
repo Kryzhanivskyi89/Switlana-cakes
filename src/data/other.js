@@ -115,9 +115,9 @@ export const other = [
     deskPhoto2x: desk8x2,
     tabPhoto2x: tab8x2,
     mobPhoto2x: mob8x2,
-    title: "",
-    alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    title: "Меренговий рулет",
+    alt: "Меренговий рулет",
+    description: "Крем з маскарпоне, начинка: манго-маракуя, чорниця, полуниця"
   },
   {
     id: 9,
