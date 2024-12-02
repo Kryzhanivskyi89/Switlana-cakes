@@ -3,7 +3,7 @@
 body {
     width: 100%;
     background-color: #FEFEFE;
-    color: #2c2c2c;
+    color: var(--text);
     // display: grid;
     //     grid-template-rows: 1fr 10rem auto;
     //     grid-template-areas: "header" "main" "footer";
@@ -30,6 +30,7 @@ body.modal-open {
     font-size: 36px;
     line-height: 1.03em;
     font-weight: 700;
+    color: var(--blue);
     
     @media screen and (min-width: 768px) {
         font-size: 48px;

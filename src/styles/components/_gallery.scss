@@ -34,16 +34,16 @@
 
 .additional-content {
     display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: auto;
-  background-color: #f0f0f0;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 100;
-  margin-top: 1rem; /* Додаємо відступ зверху */
-  margin-bottom: 1rem; /* Додаємо відступ знизу */
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    margin-top: 1rem; /* Додаємо відступ зверху */
+    margin-bottom: 1rem; /* Додаємо відступ знизу */
 }
 
 .listItem.expanded {

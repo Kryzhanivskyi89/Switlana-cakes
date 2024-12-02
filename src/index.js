@@ -4,4 +4,4 @@ import './js/modal';
 import './js/gallery';
 import './js/galleryCard';
 import './js/form';
-import './js/about';
+// import './js/about';

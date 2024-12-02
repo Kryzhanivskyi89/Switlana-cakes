@@ -6,7 +6,7 @@
     // background-image: url(../images/services-and-prices/prices-img-mob.png),
     //     linear-gradient(#111319, #111319);
     background-size: cover;
-    background-color: #9896af;
+    background-color: var(--background);
 }
 
 .prices-wrap {
@@ -22,7 +22,7 @@
     line-height: 1.43;
     letter-spacing: 0.02em;
     // color: var(--secondary-text-color-theme-dark);
-    color: #fff;
+    // color: var(--text);
         //  #555555;
         // #9da4bd
         
@@ -93,16 +93,16 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         flex-direction: row;
         gap: 30px;
         background-image: none;
-padding: 10px 20px 30px;
+        padding: 10px 20px 30px;
     }
 
     .prices {
         max-width: 100%;
+        background-size: cover;
         // max-width: 1400px;
         // margin: 0 auto;
         // background-image: url(../images/services-and-prices/prices-img-deck.png),
         //     linear-gradient(#111319, #111319);
-        background-size: cover;
         // background-color: #111319;
     }
 
