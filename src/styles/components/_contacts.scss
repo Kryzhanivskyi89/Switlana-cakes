@@ -15,6 +15,7 @@
 
 .contact__contentWrapper {
     padding: 20px, 12px;
+
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: center;
@@ -23,7 +24,6 @@
 
     @media screen and (min-width: 1280px) {
         gap: 80px;
-
     }
 }
 
@@ -32,7 +32,6 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-
     padding: 20px;
 
     @media screen and (min-width: 768px) {
@@ -76,11 +75,11 @@
     font-size: 20px;
     letter-spacing: -0.8px;
     text-decoration: none;
-    transition: color 250ms ease;
+    transition: color 200ms ease;
 
     &:hover,
     &:focus {
-        color: var(--blue);
+        color: var(--text-hover);
     }
 
     @media screen and (min-width: 1280px) {
@@ -99,11 +98,11 @@
 }
 
 .social__svg {
-    fill: var(--red);
+    fill: var(--social-icon);
     
     &:hover,
     &:focus {
-        fill: var(--purple);
+        fill: var(--button-hover);
     }
 }
 
@@ -111,7 +110,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px 12px;
-    border: 2px solid, var(--red);
+    border: 2px solid, var(--form);
     border-radius: 12px;
 
     // background-color: #eaedf1;
@@ -129,7 +128,8 @@
 
 .contact__labelsWrapper {
     margin-bottom: 16px;
-    border: #eaedf1;
+    // border: #eaedf1;
+    border: var(--form);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -169,7 +169,7 @@
     margin-top: 4px;
     padding: 12px;
     background-color: transparent;
-    border: 1px solid var(--red);
+    border: 1px solid var(--form);
     border-radius: 5px;
     color: var(--text);
     font-size: 14px;
@@ -202,7 +202,7 @@
     padding: 12px;
     margin-top: 4px;
     background-color: transparent;
-    border: 1px solid var(--red);
+    border: 1px solid var(--form);
     border-radius: 5px;
     color: var(--text);
     font-size: 14px;
@@ -221,9 +221,9 @@
     height: 39px;
 
     border-radius: 500px;
-    border: 1px solid var(--red);
-    color: #fff;
-    background-color: var(--red);
+    border: 1px solid var(--button-border);
+    color: var(--text);
+    background-color: var(--button);
     font-family: Fira Sans;
     font-size: 16px;
     line-height: calc(18px / 16px);
@@ -236,7 +236,7 @@
 
     &:hover,
     &:focus {
-        background-color: #fff;
+        background-color: var(--button-hover);
         color: var(--text);
         // border-color: var(--red);
     }

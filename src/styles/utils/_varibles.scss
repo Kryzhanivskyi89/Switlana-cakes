@@ -1,18 +1,39 @@
 :root {
-    --header-footer-bg: #98E0C2;
-    --maim-bg-color-and-border: rgba(255, 229, 80, 1);
+    // --header-footer-bg: #98E0C2;
+    // --maim-bg-color-and-border: rgba(255, 229, 80, 1);
     
-    --title-color-text: #2C2C2C;
-    --link-activ-color: rgba(187, 243, 48, 1);
-    --button-color: #BBF330;
-    --foter-text-color: rgba(126, 177, 1, 1);
-    --modal-eror-text: #FE6060;
+    // --title-color-text: #2C2C2C;
+    // --link-activ-color: rgba(187, 243, 48, 1);
+    // --button-color: #BBF330;
+    // --foter-text-color: rgba(126, 177, 1, 1);
+    // --modal-eror-text: #FE6060;
 
-    --purple: #e197ce;
-    --red: #bc1792;
-    --blue: #61cbc5;
-    --background: #f1f2f6;
-    --text: #5c5c5c;
+    // --purple: #e197ce;
+    // --red: #bc1792;
+    // --blue: #61cbc5;
+    // --background: #f1f2f6;
+    // --text: #5c5c5c;
+
+    --header: #FFD3B4;
+    --footer: #8B5E34;/*  */
+    --text: #333333; /*  */
+    --background: #F5F5F5;  
+    
+    // Додаткові кольори: 
+    --social-icon: #FF8C42; 
+    --form: #D1A578;
+    
+    // • Кнопки: 
+    --button-border: #FF8C42; 
+    --button: #E0E0E0;
+
+    // • Ховер ефекти: 
+    --text-hover: #7c7c7c;
+    --button-hover: #FFB347;
+
+    // Акцентні кольори: 
+    --akcent: #D87F6A; 
+    --akcent-graphic: #FFECD6; /* Акценти в графіці (наприклад, бордери або деталі зображень) (теплий кремовий). */
 
 
     --animation-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
