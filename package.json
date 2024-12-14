@@ -12,21 +12,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@parcel/core": "^2.10.0",
-    "axios": "^1.6.0",
+    "@parcel/core": "^2.13.2",
+    "axios": "^1.7.9",
     "flatpickr": "^4.6.13",
     "gh-pages": "^6.0.0",
     "gsap": "^3.12.5",
     "jquery": "^3.7.1",
-    "modern-normalize": "^2.0.0",
+    "modern-normalize": "^3.0.1",
     "notiflix": "^3.2.6"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
+    "@parcel/transformer-sass": "^2.13.2",
     "buffer": "^6.0.3",
-    "parcel": "^2.12.0",
+    "parcel": "^2.13.2",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^2.0.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }

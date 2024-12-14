@@ -19,7 +19,10 @@
 }
 
 .container__gallery .card .face {
-    // width: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     // height: 200px;
     transition: 0.5s;
 }

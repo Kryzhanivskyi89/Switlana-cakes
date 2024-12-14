@@ -27,8 +27,7 @@ export const easterCakes = [
     mobPhoto2x: mob1x2,
     title: "Misha",
     alt: "tort dlya Mishy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
+    description: ''},
   {
     id: 2,
     deskPhoto: desk2x1,
@@ -39,7 +38,7 @@ export const easterCakes = [
     mobPhoto2x: mob2x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
   {
     id: 3,
@@ -51,7 +50,7 @@ export const easterCakes = [
     mobPhoto2x: mob3x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
   {
     id: 4,
@@ -63,7 +62,7 @@ export const easterCakes = [
     mobPhoto2x: mob4x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
   {
     id: 5,
@@ -75,7 +74,7 @@ export const easterCakes = [
     mobPhoto2x: mob5x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
   {
     id: 6,
@@ -87,6 +86,6 @@ export const easterCakes = [
     mobPhoto2x: mob6x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
 ]

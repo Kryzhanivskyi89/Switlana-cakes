@@ -32,7 +32,7 @@ export const traiffle = [
     mobPhoto2x: mob1x2,
     title: "Misha",
     alt: "tort dlya Mishy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const traiffle = [
     mobPhoto2x: mob6x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
   {
     id: 7,
@@ -104,7 +104,7 @@ export const traiffle = [
     mobPhoto2x: mob7x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
   {
     id: 8,
@@ -116,7 +116,7 @@ export const traiffle = [
     mobPhoto2x: mob8x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
   
 ]

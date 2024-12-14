@@ -19,7 +19,7 @@ export const makarons = [
     mobPhoto2x: mob1x2,
     title: "Misha",
     alt: "tort dlya Mishy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ""
   },
   {
     id: 2,
@@ -31,6 +31,6 @@ export const makarons = [
     mobPhoto2x: mob2x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
 ]

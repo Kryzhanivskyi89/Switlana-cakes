@@ -43,8 +43,7 @@ export const cupCakes = [
     mobPhoto2x: mob1x2,
     title: "Misha",
     alt: "tort dlya Mishy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
-  },
+    description: ""},
   {
     id: 2,
     deskPhoto: desk2x1,
@@ -55,7 +54,7 @@ export const cupCakes = [
     mobPhoto2x: mob2x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ""
   },
   {
     id: 3,
@@ -67,7 +66,7 @@ export const cupCakes = [
     mobPhoto2x: mob3x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ''
   },
   {
     id: 4,
@@ -79,7 +78,7 @@ export const cupCakes = [
     mobPhoto2x: mob4x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ''
   },
   {
     id: 5,
@@ -91,7 +90,7 @@ export const cupCakes = [
     mobPhoto2x: mob5x2,
     title: "",
     alt: "",
-    description: "July 2023"
+    description: ''
   },
   {
     id: 6,
@@ -103,7 +102,7 @@ export const cupCakes = [
     mobPhoto2x: mob6x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 7,
@@ -115,7 +114,7 @@ export const cupCakes = [
     mobPhoto2x: mob7x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 8,
@@ -127,7 +126,7 @@ export const cupCakes = [
     mobPhoto2x: mob8x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 9,
@@ -139,7 +138,7 @@ export const cupCakes = [
     mobPhoto2x: mob9x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 10,
@@ -151,7 +150,7 @@ export const cupCakes = [
     mobPhoto2x: mob10x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 11,
@@ -163,7 +162,7 @@ export const cupCakes = [
     mobPhoto2x: mob11x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 12,
@@ -175,7 +174,7 @@ export const cupCakes = [
     mobPhoto2x: mob12x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
   {
     id: 13,
@@ -187,7 +186,7 @@ export const cupCakes = [
     mobPhoto2x: mob13x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
 {
     id: 14,
@@ -199,6 +198,6 @@ export const cupCakes = [
     mobPhoto2x: mob14x2,
     title: "",
     alt: "",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis providentat"
+    description: ''
   },
 ]
