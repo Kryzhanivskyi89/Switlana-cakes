@@ -38,16 +38,15 @@
 // }
 
 .advantages {
+    width: 100%;
     padding: 50px 20px;
     background-color: var(--background);
-    /* Білий фон секції */
     text-align: center;
 }
 
 .section-title {
     font-size: 2.5rem;
     color: var(--footer);
-    /* Насичений коричневий */
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;

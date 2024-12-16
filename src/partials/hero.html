@@ -1,9 +1,29 @@
 <section class="hero section" id="home">
-    <h1 class="hero-title">Торти у Соломянському районі</h1>
+    <h1 class="hero-title">Switlana Cake - Торти у Соломянському районі</h1>
     <div class="slider-container">
         <div class="slider">
             <div class="slider-box">
                 <div class="slider-line">
+                    <picture>
+                        <source srcset="
+                            ./images/hero/1x/2desk@1x.jpg 1x, 
+                            ./images/hero/2x/2desk@2x.jpg 2x" 
+                        media="(min-width:1200px)" />
+
+                        <source srcset="
+                            ./images/hero/1x/2tab@1x.jpg 1x, 
+                            ./images/hero/2x/2tab@2x.jpg 2x" 
+                        media="(min-width:768px)" />
+
+                        <source srcset="
+                            ./images/hero/1x/2mob@1x.jpg 1x, 
+                            ./images/hero/2x/2mob@2x.jpg 2x" 
+                            media="(max-width:767px)" />
+                    
+                        <img src='images/hero/1x/2desk@1x.jpg' alt='' width="250" height="200" loading="lazy"
+                            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px " /> 
+                    </picture>
+
                     <picture>
                         <source srcset="
                             ./images/hero/1x/1desk@1x.jpg 1x, 
@@ -31,26 +51,6 @@
 
                     <picture>
                         <source srcset="
-                            ./images/hero/1x/2desk@1x.jpg 1x, 
-                            ./images/hero/2x/2desk@2x.jpg 2x" 
-                        media="(min-width:1200px)" />
-
-                        <source srcset="
-                            ./images/hero/1x/2tab@1x.jpg 1x, 
-                            ./images/hero/2x/2tab@2x.jpg 2x" 
-                        media="(min-width:768px)" />
-
-                        <source srcset="
-                            ./images/hero/1x/2mob@1x.jpg 1x, 
-                            ./images/hero/2x/2mob@2x.jpg 2x" 
-                            media="(max-width:767px)" />
-                    
-                        <img src='images/hero/1x/2desk@1x.jpg' alt='' width="250" height="200" loading="lazy"
-                            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px " /> 
-                    </picture>
-
-                    <picture>
-                        <source srcset="
                             ./images/hero/1x/3desk@1x.jpg 1x, 
                             ./images/hero/2x/3desk@2x.jpg 2x" 
                         media="(min-width:1200px)" />
@@ -67,6 +67,7 @@
                         <img src='images/hero/1x/3desk@1x.jpg' alt='' width="250" height="200" loading="lazy"
                             sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px " />
                     </picture>
+                    
                     <picture>
                         <source srcset="
                             ./images/hero/1x/4desk@1x.jpg 1x, 

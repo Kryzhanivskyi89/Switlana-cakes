@@ -1,6 +1,8 @@
 
 .about-list {
-    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    // padding: 16px;
     background-image:
         // linear-gradient(#111319, #111319),
         url(../images/about/hero1_mob1x.jpg);
@@ -32,7 +34,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .about-list {
         background-image: 
             // linear-gradient(#111319, #111319),
-            url(../images/about/hero1_tab2x.jpg);
+        url(../images/about/hero1_tab2x.jpg);
     }
 }
 
@@ -40,7 +42,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .about-list {
         background-image: 
             // linear-gradient(#111319, #111319),
-            url(../images/about/hero1_desk1x.jpg);
+        url(../images/about/hero1_desk1x.jpg);
     
     }
 
@@ -52,12 +54,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .about-list {
         background-image: 
         // linear-gradient(#111319, #111319),
-            url(../images/about/hero1_desk2x.jpg);
+        url(../images/about/hero1_desk2x.jpg);
     }
 }
 
 .about-item {
-    width: 75%;
+    width: 70%;
     margin: 10px;
     background: var(--background);
     border-radius: 10px;
@@ -102,11 +104,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 
 .about-description {
     padding: 12px;
-    margin-bottom: 40px;
     line-height: 1.0;
     font-size: 12px;
-    // font-weight: bold;
-    // color: var(--form);
     list-style: inside ;
     color: #111;
 
@@ -122,6 +121,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 
 }
 
+.description-item {
+    margin-bottom: 10px;
+}
 
 // .about-item {
 //     background: var(--background);
