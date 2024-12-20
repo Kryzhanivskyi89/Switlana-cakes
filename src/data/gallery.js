@@ -1,34 +1,34 @@
-import {
-  desk1x1, tab1x1, mob1x1,
-  desk2x1, tab2x1, mob2x1,
-  desk3x1, tab3x1, mob3x1,
-  desk4x1, tab4x1, mob4x1,
-  desk5x1, tab5x1, mob5x1,
-  desk6x1, tab6x1, mob6x1,
-  desk7x1, tab7x1, mob7x1,    
-  desk8x1, tab8x1, mob8x1,
-  desk9x1, tab9x1, mob9x1,
-  desk10x1, tab10x1, mob10x1,
-  desk11x1, tab11x1, mob11x1,
-  desk12x1, tab12x1, mob12x1,
-  desk13x1, tab13x1, mob13x1,
-} from '../images/gallery/cakes/1x';
+// import {
+//   desk1x1, tab1x1, mob1x1,
+//   desk2x1, tab2x1, mob2x1,
+//   desk3x1, tab3x1, mob3x1,
+//   desk4x1, tab4x1, mob4x1,
+//   desk5x1, tab5x1, mob5x1,
+//   desk6x1, tab6x1, mob6x1,
+//   desk7x1, tab7x1, mob7x1,    
+//   desk8x1, tab8x1, mob8x1,
+//   desk9x1, tab9x1, mob9x1,
+//   desk10x1, tab10x1, mob10x1,
+//   desk11x1, tab11x1, mob11x1,
+//   desk12x1, tab12x1, mob12x1,
+//   desk13x1, tab13x1, mob13x1,
+// } from '../images/gallery/cakes/1x';
 
-import {
-    desk1x2, tab1x2, mob1x2,
-    desk2x2, tab2x2, mob2x2,
-    desk3x2, tab3x2, mob3x2,
-    desk4x2, tab4x2, mob4x2,
-    desk5x2, tab5x2, mob5x2,
-    desk6x2, tab6x2, mob6x2,
-    desk7x2, tab7x2, mob7x2,
-    desk8x2, tab8x2, mob8x2,
-    desk9x2, tab9x2, mob9x2,
-    desk10x2, tab10x2, mob10x2,
-    desk11x2, tab11x2, mob11x2,
-    desk12x2, tab12x2, mob12x2,
-    desk13x2, tab13x2, mob13x2,
-} from '../images/gallery/cakes/2x';
+// import {
+//     desk1x2, tab1x2, mob1x2,
+//     desk2x2, tab2x2, mob2x2,
+//     desk3x2, tab3x2, mob3x2,
+//     desk4x2, tab4x2, mob4x2,
+//     desk5x2, tab5x2, mob5x2,
+//     desk6x2, tab6x2, mob6x2,
+//     desk7x2, tab7x2, mob7x2,
+//     desk8x2, tab8x2, mob8x2,
+//     desk9x2, tab9x2, mob9x2,
+//     desk10x2, tab10x2, mob10x2,
+//     desk11x2, tab11x2, mob11x2,
+//     desk12x2, tab12x2, mob12x2,
+//     desk13x2, tab13x2, mob13x2,
+// } from '../images/gallery/cakes/2x';
 
 export const gallery = [
     {
