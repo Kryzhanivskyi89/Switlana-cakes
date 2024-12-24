@@ -2,12 +2,10 @@
   "name": "cakes",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://kryzhanivskyi89.github.io/Switlana-cakes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Switlana-cakes/",
-    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/*.html --public-url /",
     "build-css": "sass src/styles/index.scss src/styles/index.css",
     "watch-css": "sass --watch src/styles/index.scss:src/styles/index.css"
   },
@@ -26,8 +24,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
     "buffer": "^6.0.3",
-    "gh-pages": "^6.2.0",
-    "parcel": "^2.13.2",
+    "parcel": "^2.13.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^2.0.1",
     "process": "^0.11.10",
