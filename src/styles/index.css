@@ -429,7 +429,6 @@ button {
   left: 10px;
   z-index: 100;
   transition: all 0.1s linear;
-  -webkit-transform: scale(0.9999, 0.9999);
   transform: scale(0.9999, 0.9999);
 }
 .form::before {
@@ -468,7 +467,6 @@ button {
   height: 64px;
   background: #6C4A27;
   z-index: 100;
-  -webkit-transform: scale(0, 0) rotate(-90deg);
   transform: scale(0, 0) rotate(-90deg);
   transition: all 0.5s 0.3s cubic-bezier(0.9, 0.1, 0.1, 0.9);
   line-height: 64px;
@@ -481,20 +479,17 @@ button {
   font-size: 16px;
   color: #CB9A4B;
   opacity: 0;
-  -webkit-transform: scale(0.2, 0.2);
   transform: scale(0.2, 0.2);
   transition: all 0.6s 0.4s ease;
 }
 .span.active {
   width: 320px;
   margin-left: -160px;
-  -webkit-transform: scale(1, 1) rotate(0deg);
   transform: scale(1, 1) rotate(0deg);
 }
 
 span {
   opacity: 1;
-  -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   left: 0px;
 }
@@ -574,7 +569,9 @@ span {
   position: relative;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: 0;
   background: 0;
   color: white;
@@ -790,7 +787,7 @@ span {
 
 .container .card .face.face2 {
   position: relative;
-  background: #fff;
+  background: var(--akcent);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -843,7 +840,7 @@ img {
   background-position: center;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-resolution: 2dppx) and (min-width: 480px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .about-list {
     background-image: url(../images/about/hero1_mob2x.jpg);
   }
@@ -853,7 +850,7 @@ img {
     background-image: url(../images/about/hero1_tab1x.jpg);
   }
 }
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .about-list {
     background-image: url(../images/about/hero1_tab2x.jpg);
   }
@@ -863,7 +860,7 @@ img {
     background-image: url(../images/about/hero1_desk1x.jpg);
   }
 }
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .about-list {
     background-image: url(../images/about/hero1_desk2x.jpg);
   }
@@ -1356,4 +1353,13 @@ img {
   text-align: center;
 }
 
-/*# sourceMappingURL=index.css.map */
+.andrewDev {
+  margin-left: 4px;
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.andrewDev:hover {
+  color: var(--social-icon);
+}/*# sourceMappingURL=index.css.map */

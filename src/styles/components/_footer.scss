@@ -42,3 +42,14 @@
 .develop {
     text-align: center;
 }
+
+.andrewDev {
+    margin-left: 4px;
+    color: var(--text);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.andrewDev:hover {
+    color: var(--social-icon);
+}
