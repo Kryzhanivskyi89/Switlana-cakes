@@ -682,10 +682,11 @@ span {
 .listItem {
   position: static;
   /* Змінили з relative на static */
-  background-color: #d0d0d0;
+  background-color: var(--background);
   padding: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 20px;
 }
 
 .description {
@@ -693,6 +694,37 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.galleryCategoryTitle {
+  position: absolute;
+  z-index: 3;
+  color: var(--button-border);
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 85%;
+}
+@media screen and (min-width: 679px) {
+  .galleryCategoryTitle {
+    margin-bottom: 35%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .galleryCategoryTitle {
+    margin-bottom: 45%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .galleryCategoryTitle {
+    margin-top: 15%;
+  }
+}
+
+.galleryCategoryPicture {
+  border: 1px solid var(--background);
+  contain: content;
+  border-radius: 20px;
 }
 
 .additional-content {
@@ -1127,15 +1159,8 @@ img {
 @media screen and (min-width: 768px) {
   .contact-list {
     margin-bottom: 0;
-    max-width: 244px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .contact-list {
-    max-width: 466px;
-  }
-}
-
 .contact-item {
   display: flex;
   flex-direction: column;
@@ -1159,15 +1184,18 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 5px;
   color: var(--text);
   text-align: justify;
   font-size: 20px;
   letter-spacing: -0.8px;
   text-decoration: none;
   transition: color 200ms ease;
+  border-radius: 10px;
 }
 .contact__link:hover, .contact__link:focus {
   color: var(--text-hover);
+  background-color: var(--button-hover);
 }
 @media screen and (min-width: 1280px) {
   .contact__link {

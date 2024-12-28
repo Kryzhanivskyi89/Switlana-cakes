@@ -36,11 +36,11 @@
 
     @media screen and (min-width: 768px) {
         margin-bottom: 0;
-        max-width: 244px;
+        // max-width: 244px;
     }
 
     @media screen and (min-width: 1280px) {
-        max-width: 466px;
+        // max-width: 466px;
     }
 }
 
@@ -69,17 +69,19 @@
     display: flex;
     align-items: center;
     gap: 8px;
-
+    padding: 5px;
     color: var(--text);
     text-align: justify;
     font-size: 20px;
     letter-spacing: -0.8px;
     text-decoration: none;
     transition: color 200ms ease;
+    border-radius: 10px;
 
     &:hover,
     &:focus {
         color: var(--text-hover);
+        background-color: var(--button-hover);
     }
 
     @media screen and (min-width: 1280px) {

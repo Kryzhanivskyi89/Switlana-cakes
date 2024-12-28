@@ -22,10 +22,11 @@
 .listItem {
     position: static;
     /* Змінили з relative на static */
-    background-color: #d0d0d0;
+    background-color: var(--background);
     padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 20px;
 }
 
 .description {
@@ -33,6 +34,33 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
+}
+
+.galleryCategoryTitle {
+    position: absolute;
+    z-index: 3;
+    color: var(--button-border);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 85%;
+
+    @media screen and (min-width: 679px) {
+        margin-bottom: 35%;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 45%;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        margin-top: 15%;
+    }
+}
+
+.galleryCategoryPicture {
+    border: 1px solid var(--background);
+    contain: content;
+    border-radius: 20px;
 }
 
 .additional-content {
@@ -70,68 +98,3 @@
     display: block;
     
 }
-// .staggered-list-content {
-//     max-width: 400px;
-//     margin: 2rem auto;
-// }
-
-// .galleryList {
-//     list-style-type: none;
-//     padding: 0;
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-//     grid-gap: 2rem;
-// }
-
-// .galleryList li+li {
-//     // margin-top: 1rem;
-// }
-
-// .listItem {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     cursor: pointer;
-//     background-color: #d0d0d0;
-//     padding: 1rem;
-// }
-
-// .listItem.expanded .avatar {
-//     height: 8rem;
-//     margin-right: 0;
-//     margin-bottom: 1rem;
-// }
-
-// .line {}
-
-// .line+.line {
-//     margin-top: 1rem;
-// }
-
-// .listItem.expanded .description {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
-
-// .listItem.expanded {
-//     background-color: #d0d0d0;
-//     padding: 2rem;
-//     flex-direction: column;
-// }
-
-// .additional-content {
-//     width: 100%;
-//     margin-top: 2rem;
-//     display: none;
-//     overflow: hidden;
-//     transition: height 0.5s ease, opacity 0.5s ease;
-// }
-
-// .listItem.expanded .additional-content {
-//     display: block;
-// }
-
-// .listItem.expanded .chunk {
-//     opacity: 1;
-// }
