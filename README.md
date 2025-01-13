@@ -1,59 +1,133 @@
-**1. Work Gallery:**
+🧁 Online store of confectionery products.
 
-Developed an interactive gallery showcasing confectionery products with
-high-quality photos and detailed descriptions. Users can browse the creations
-and explore various product categories.
+Description.
 
-**2. Responsive Design and Retina Support:**
+This is a responsive website for demonstration and sale of confectionery
+products. Integration with **Cloudinary API**, server-side order processing,
+email notifications and dynamic content loading are implemented.
 
-Ensured the site looked flawless across all devices, from mobile phones to
-desktops, with support for high-pixel-density (Retina) displays. Used responsive
-design techniques to provide a seamless experience on any screen.
+Technologies.
 
-**3. Promotional Timer:**
+- Frontend: HTML, CSS, SCSS, JavaScript
 
-Implemented a promotional timer feature that automatically counts down the time
-until special offers end. This creates a sense of urgency and encourages users
-to make quick purchasing decisions.
+- Backend: Node.js, Express
 
-**4. Slider in the Hero Section:**
+- API: Cloudinary
 
-Added a slider to the Hero section, automatically displaying images of the
-confectionery creation process. This element grabs visitors’ attention
-immediately and adds a dynamic touch to the site.
+- Hosting: Vercel
 
-**5. Animated “About Us” Section:**
+Features.
 
-Created an animated section presenting key information about the company,
-including its history, philosophy, and values. The animation provides an
-engaging experience for users and helps build a positive brand image.
+- Responsive design for mobile, tablets and desktops.
 
-**6. Backend Integration:**
+- Optimized images (6 versions per product).
 
-Integrated the site with a MongoDB database for efficient order management and
-customer information handling. Also, a feature that automatically sends order
-confirmations to customers via email using Nodemailer was implemented.
+- Timer for promotions.
 
-**7. Contact Section:**
+- Email notifications about orders.
 
-Developed a section with detailed contact information, including direct links to
-social media. This makes it easy for customers to connect with the company and
-increases its accessibility.
+- Dynamic integration of content from the database.
 
-**8. Enhanced UX/UI:**
+Results.
 
-Focused on delivering a superior user experience (UX) and user interface (UI),
-ensuring simple and intuitive navigation. The site features a modern, attractive
-design that adheres to the best practices in web development.
+- Page performance increased by 30%.
 
-**9. Performance Optimization:**
+- Scalable architecture for adding new products.
 
-Conducted optimizations to improve page load times and resource management,
-significantly boosting the site’s speed, especially on mobile devices. This
-enhances user experience and positively impacts the site’s search engine
-ranking.
+- Strong Description in Resume.
+  Frontend/Full Stack Developer | Online Confectionery Store.
+  Created an optimized and scalable online store to showcase confectionery
+  products.
+  Accomplishments:
+  - Reduced page load time by 30% by optimizing graphic content by implementing
+    integration with Cloudinary API.
 
-**10. SEO Support:**
+  - Implemented an email notification system for orders and a server
+    architecture for data management.
 
-Implemented basic SEO support, including optimization of meta tags, keywords,
-and descriptions, to improve the site’s visibility in search engines.
+  - Provided responsive design for different screens with support for Retina
+    displays.
+
+  - Built dynamic content with a promotions timer, which increased the
+    interactivity of the site.
+  Technologies: Node.js, Express, Cloudinary API, HTML, SCSS, JavaScript,
+  Vercel.
+  The project demonstrates the ability to solve complex technical problems,
+  creating a modern UI/UX with high performance and optimization.
+
+## Optimization and Development of an online confectionery store
+
+## Technical overview of the project
+
+The project is a modern online confectionery store that combines advanced image
+processing technologies, dynamic content loading, and optimized server
+architecture.
+
+### Image Optimization and Responsive Design
+
+The project is based on a comprehensive media content management system:
+
+- Implementation of an adaptive image system for desktop, tablet and mobile
+  devices with support for Retina displays for each product
+- Implementation of efficient caching and lazy loading to speed up loading
+
+### Integration with Cloudinary and Server Side
+
+We have developed a powerful server architecture with the following features:
+
+- Full integration with Cloudinary API for optimal media management
+- Automatic generation and structuring of product data
+- Data synchronization between the server and Cloudinary
+- Implementation of an electronic order notification system
+
+### Performance optimization
+
+A significant improvement in website performance has been achieved:
+
+- Reduced page load time by 30%.
+- Implementation of effective caching mechanisms
+- Optimization of graphic content processing
+- Ensuring fast response of the interface
+
+### Scalability and Content Management
+
+A flexible content management system has been created:
+
+- Ability to easily add new product categories
+- Structured database for efficient information storage
+- Automated updating of promotional offers
+- Integration of a timer to display the validity of promotions
+
+### Technical Achievements
+
+1. Server-side architecture
+   - Integration with Cloudinary API
+   - Order processing system
+   - Database for storing information
+2. Frontend implementation:
+   - Responsive design
+   - Dynamic content loading
+   - Optimized performance
+
+### Hosting and Deployment
+
+The project is deployed on the Vercel platform, which provides:
+
+- Stable operation of the service
+- Fast content loading
+- Reliable data storage
+- Automatic scaling
+
+### Results.
+
+The implementation of the project led to the creation of a reliable, fast and
+convenient online store with:
+
+- Optimized image management system
+- Efficient server architecture
+- Flexible content management system
+- High performance and speed
+
+The project demonstrates a successful combination of modern web development
+technologies with an optimized architecture that provides excellent user
+experience and efficient content management.

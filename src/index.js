@@ -1,10 +1,6 @@
-import './js/timer';
 import './js/mobile-menu';
 import "./js/slider";
-import './js/modal';
+import './js/timer';
 import './js/galleryApi';
-import './js/gallery';
 import './js/galleryCard';
 import './js/form';
-import './data/getCupCakes';
-// import './js/about';
