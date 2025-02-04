@@ -33,7 +33,7 @@
                 </div>
             </div>
         </li>
-    `})(e)).join("");n.innerHTML=e||"<li>No items found</li>",d.add(t)}}catch(e){console.error(`Error loading ${t} gallery:`,e),n.innerHTML="<li>Error loading gallery items</li>"}}let h=document.createElement("style");h.textContent=`
+    `})(e)).join("");n.innerHTML=e||"<li>server wants a money, fuck his</li>",d.add(t)}}catch(e){console.error(`Error loading ${t} gallery:`,e),n.innerHTML="<li>Error loading gallery items</li>"}}let h=document.createElement("style");h.textContent=`
     .spacer {
         grid-column: 1 / -1;
         height: 0;
@@ -58,4 +58,4 @@
         visibility: visible;
     }
 `,document.head.appendChild(h),document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".listItem"),t=document.querySelector(".galleryList"),n=document.createElement("div");function r(e){let n=e.getBoundingClientRect(),r=t.getBoundingClientRect();return Math.floor((n.top-r.top)/n.height)}function i(i){i.getBoundingClientRect();let o=i.querySelector(".additional-content"),a=t.getBoundingClientRect(),s=r(i),l=Array.from(e).filter(e=>r(e)===s),u=l[l.length-1].getBoundingClientRect();o.style.top=`${u.bottom-a.top}px`,setTimeout(()=>{let e=window.getComputedStyle(o),t=o.offsetHeight+parseInt(e.marginTop)+parseInt(e.marginBottom);n.style.height=`${t+20}px`,n.style.gridRow=s+2,n.classList.add("active")},0)}function o(){let t=document.querySelector(".listItem.expanded");if(t){let r=t.getBoundingClientRect();e.forEach(e=>e.classList.remove("expanded")),n.classList.remove("active"),n.style.height="0",window.scrollTo({top:window.pageYOffset+r.top-100,behavior:"smooth"})}}n.className="spacer",t.appendChild(n),e.forEach(e=>{e.addEventListener("click",async t=>{if(t.stopPropagation(),e.classList.contains("expanded"))o();else{o();let t=e.querySelector(".container__gallery");if(t){let n=t.id;await p(e,n)}e.classList.add("expanded"),i(e)}})}),document.addEventListener("click",e=>{e.target.closest(".listItem")||o()}),window.addEventListener("resize",()=>{let e=document.querySelector(".listItem.expanded");e&&i(e)})}),document.getElementById("contactForm").addEventListener("submit",async function(e){e.preventDefault();let t=new FormData(e.target),n={};console.log(n),t.forEach((e,t)=>{n[t]=e});try{(await fetch("https://cakes-backend.onrender.com/orders",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(n)})).ok?alert("Заказ успішно надіслано!"):alert("Сталася помилка при надсиланні заказу.")}catch(e){console.error("Помилка:",e),alert("Сталася помилка при надсиланні заказу.")}})}();
-//# sourceMappingURL=index.72f7755e.js.map
+//# sourceMappingURL=index.f825fe9d.js.map
