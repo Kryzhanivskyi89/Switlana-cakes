@@ -54,7 +54,7 @@ async function loadCategoryContent(listItem, category) {
             galleryContainer.innerHTML = '<li>Loading...</li>';
             const galleryData = await fetchGalleryData(category);
             const cardsHTML = galleryData.map(cardData => createCard(cardData)).join('');
-            galleryContainer.innerHTML = cardsHTML || '<li>No items found</li>';
+            galleryContainer.innerHTML = cardsHTML || '<li>server wants a money, fuck his</li>';
             loadedCategories.add(category);
         }
     } catch (error) {

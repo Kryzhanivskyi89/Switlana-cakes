@@ -359,7 +359,7 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--akcent);
-  background-color: rgba(180, 180, 180, 0.3); /* Світліший сірий фон */
+  background-color: rgba(180, 180, 180, 0.3);
   border-radius: 10px;
   padding: 8px;
   -webkit-backdrop-filter: blur(2px);
@@ -397,6 +397,7 @@ button {
   overflow: hidden;
   height: 100%;
 }
+
 .slider-line {
   display: flex;
   height: 600px;
@@ -491,10 +492,9 @@ button {
   cursor: pointer;
   right: 50%;
 }
+
 .slider-prev {
   margin-right: 40px;
-}
-.slider-prev {
   left: 50%;
   top: 50%;
 }
@@ -534,7 +534,6 @@ button {
 
 .listItem {
   position: static;
-  /* Змінили з relative на static */
   background-color: var(--background);
   padding: 1rem;
   cursor: pointer;
@@ -596,8 +595,8 @@ button {
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 5;
-  margin-top: 1rem; /* Додаємо відступ зверху */
-  margin-bottom: 1rem; /* Додаємо відступ знизу */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .listItem.expanded {
@@ -608,13 +607,12 @@ button {
   display: block;
 }
 
-/* Створюємо пустий простір після рядка */
 .spacer {
   display: none;
   grid-column: 1/-1;
   height: 0;
   transition: height 0.3s ease;
-  margin-bottom: 2rem; /* Додаємо відступ знизу */
+  margin-bottom: 2rem;
 }
 
 .spacer.active {
@@ -826,7 +824,6 @@ img {
 }
 
 .advantages {
-  width: 100%;
   padding: 50px 20px;
   background-color: var(--background);
   text-align: center;
@@ -1225,7 +1222,6 @@ img {
     margin-top: 20px;
   }
 }
-/* ========== /SERVICES AND PRICES ==========*/
 .contactUs {
   padding: 18px 0;
 }

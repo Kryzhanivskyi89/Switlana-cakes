@@ -1,44 +1,5 @@
 
-// .advantages {
-//     // display: flex;
-//     // justify-content: center;
-//     background: var(--background);
-// }
-
-// .description {
-//     // width: 80%;
-//     margin-right: 20px;
-// }
-
-// .advantage-list {
-//     padding: 12px;
-// }
-
-// .advantage-item {
-//     margin-bottom: 12px;
-//     margin-left: 12px;
-//     text-align: start;
-//     font-size: 14px;
-//     line-height: 1.1;
-
-//     @media screen and (min-width: 768px) {
-//         font-size: 18px;
-//         line-height: 1.2;
-//     }
-
-//     @media screen and (min-width: 1280px) {
-//         font-size: 20px;
-//         line-height: 1.3;
-//     }
-
-// }
-
-// .pre-advantage {
-//     font-weight: bold;
-// }
-
 .advantages {
-    width: 100%;
     padding: 50px 20px;
     background-color: var(--background);
     text-align: center;

@@ -2,7 +2,6 @@
 .about-list {
     display: flex;
     justify-content: flex-end;
-    // padding: 16px;
     background-image:
         // linear-gradient(#111319, #111319),
         url(../images/about/hero1_mob1x.jpg);
@@ -80,15 +79,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .about-title {
     font-size: 14px;
     line-height: 1.1em;
-    // font-weight: 400;
     padding: 12px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 0;
-    // background-color: var(--blue);
     text-align: center;
     text-transform: uppercase;
-    // color: #111;
     color: var(--akcent);
 
     @media screen and (min-width: 768px) {
@@ -124,40 +120,3 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .description-item {
     margin-bottom: 10px;
 }
-
-// .about-item {
-//     background: var(--background);
-//     border-radius: 10px;
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-//     opacity: 1;
-//     transform: translateY(50px);
-//     transition: opacity 1s ease-out, transform 1s ease-out;
-
-// }
-
-// // .about-item.visible {
-// //     opacity: 1;
-// //     transform: translateY(0);
-// // }
-
-// .about-title {
-//     font-size: 35px;
-//     line-height: 1.28em;
-//     font-weight: 600;
-//     padding: 30px;
-//     border-top-right-radius: 10px;
-//     border-top-left-radius: 10px;
-//     border-bottom-left-radius: 0;
-//     background-color: var(--blue);
-//     text-align: center;
-//     text-transform: uppercase;
-// }
-
-// .about-description {
-//     // margin-bottom: 40px;
-//     padding: 20px;
-//     margin-bottom: 40px;
-//     line-height: 1.5;
-//     font-size: 20px;
-
-// }

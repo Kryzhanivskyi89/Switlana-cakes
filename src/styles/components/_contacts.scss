@@ -2,8 +2,6 @@
 .contactUs {
     padding: 18px 0;
 
-    // background-color: #f3f5fa;
-
     @media screen and (min-width: 768px) {
         padding: 50px 0;
     }
@@ -36,11 +34,9 @@
 
     @media screen and (min-width: 768px) {
         margin-bottom: 0;
-        // max-width: 244px;
     }
 
     @media screen and (min-width: 1280px) {
-        // max-width: 466px;
     }
 }
 
@@ -115,22 +111,10 @@
     border: 2px solid, var(--form);
     border-radius: 12px;
 
-    // background-color: #eaedf1;
-
-    // @media screen and (min-width: 768px) {
-    //     width: 342px;
-    //     padding: 36px 24px;
-    // }
-
-    // @media screen and (min-width: 1280px) {
-    //     width: 596px;
-    //     padding: 48px;
-    // }
 }
 
 .contact__labelsWrapper {
     margin-bottom: 16px;
-    // border: #eaedf1;
     border: var(--form);
     display: flex;
     flex-direction: column;
@@ -150,9 +134,6 @@
     text-transform: uppercase;
     // color: var(--text);
 }
-// .contact__formLabel {
-    
-// }
 
 .contact__formName {
     padding-left: 20px;
@@ -188,16 +169,6 @@
     border-color: #d28b8b;
 }
 
-// .contact__formError {
-//     margin-top: 8px;
-//     text-align: end;
-//     color: #d28b8b;
-
-//     @media screen and (min-width: 1280px) {
-//         margin-top: 12px;
-//     }
-// }
-
 .contact__formText {
     width: 100%;
     height: 147px;
@@ -221,7 +192,6 @@
 .contact__formSubmit {
     gap: 12px;
     height: 39px;
-
     border-radius: 500px;
     border: 1px solid var(--button-border);
     color: var(--text);
@@ -230,7 +200,6 @@
     font-size: 16px;
     line-height: calc(18px / 16px);
     letter-spacing: -0.64px;
-
     transition:
         color 250ms ease,
         border-color 250ms ease,

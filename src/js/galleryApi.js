@@ -1,4 +1,3 @@
-// Function to fetch data for a specific category
 
 async function fetchGalleryData(category) {
     try {

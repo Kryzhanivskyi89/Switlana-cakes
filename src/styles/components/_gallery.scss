@@ -1,3 +1,4 @@
+
 .gallerySection {
     position: relative;
     padding: 2rem 0;
@@ -21,7 +22,6 @@
 
 .listItem {
     position: static;
-    /* Змінили з relative на static */
     background-color: var(--background);
     padding: 1rem;
     cursor: pointer;
@@ -80,8 +80,8 @@
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     z-index: 5;
-    margin-top: 1rem; /* Додаємо відступ зверху */
-    margin-bottom: 1rem; /* Додаємо відступ знизу */
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
 }
 
 .listItem.expanded {
@@ -92,16 +92,14 @@
     display: block;
 }
 
-/* Створюємо пустий простір після рядка */
 .spacer {
     display: none;
-  grid-column: 1 / -1;
-  height: 0;
-  transition: height 0.3s ease;
-  margin-bottom: 2rem; /* Додаємо відступ знизу */
+    grid-column: 1 / -1;
+    height: 0;
+    transition: height 0.3s ease;
+    margin-bottom: 2rem;
 }
 
 .spacer.active {
     display: block;
-    
 }

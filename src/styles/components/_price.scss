@@ -3,15 +3,11 @@
 .prices {
     max-width: 480px;
     margin: 0 auto;
-    // background-image: url(../images/services-and-prices/prices-img-mob.png),
-    //     linear-gradient(#111319, #111319);
     background-size: cover;
     background-color: var(--background);
 }
 
 .prices-wrap {
-    // padding: 10px 20px 30px;
-    // background-image: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
     display: flex;
     flex-direction: column;
     // margin-bottom: 44px;
@@ -21,18 +17,12 @@
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.02em;
-    // color: var(--secondary-text-color-theme-dark);
-    // color: var(--text);
-        //  #555555;
-        // #9da4bd
-        
 }
 
 .prices-item::before {
     content: '';
     flex-grow: 1;
     height: 1px;
-    // background: rgba(157, 164, 189, 0.12);
     background: #9896af;
 }
 
@@ -42,10 +32,6 @@
     justify-content: space-between;
     gap: 12px;
 }
-
-// .prices-item {
-//     margin-top: 20px;
-// }
 
 .prices-item-text {
     order: -1;
@@ -99,11 +85,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .prices {
         max-width: 100%;
         background-size: cover;
-        // max-width: 1400px;
-        // margin: 0 auto;
-        // background-image: url(../images/services-and-prices/prices-img-deck.png),
-        //     linear-gradient(#111319, #111319);
-        // background-color: #111319;
     }
 
     .prices-table {
@@ -126,5 +107,3 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
             // linear-gradient(#111319, #111319);
     }
 }
-
-/* ========== /SERVICES AND PRICES ==========*/
