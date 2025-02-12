@@ -1,5 +1,4 @@
 
-/* ========== SERVICES AND PRICES ==========*/
 .prices {
     max-width: 480px;
     margin: 0 auto;
@@ -10,7 +9,6 @@
 .prices-wrap {
     display: flex;
     flex-direction: column;
-    // margin-bottom: 44px;
 }
 
 .prices-table {
@@ -42,21 +40,10 @@
     margin: 0 auto;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
-screen and (min-resolution: 192dpi) and (min-width: 480px),
-screen and (min-resolution: 2dppx) and (min-width: 480px) {
-    .prices {
-        // background-image: url(../images/services-and-prices/prices-img-mob@2x.png),
-        //     linear-gradient(#111319, #111319);
-    }
-}
-
 @media screen and (min-width: 768px) {
     .prices {
         max-width: 768px;
         margin: 0 auto;
-        // background-image: url(../images/services-and-prices/prices-img-tab.png),
-        //     linear-gradient(#111319, #111319);
     }
 
     .prices-table {
@@ -65,14 +52,6 @@ screen and (min-resolution: 2dppx) and (min-width: 480px) {
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .prices {
-        // background-image: url(../images/services-and-prices/prices-img-tab@2x.png),
-        //     linear-gradient(#111319, #111319);
-    }
-}
 
 @media screen and (min-width: 1200px) {
     .prices-wrap {
@@ -91,7 +70,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         // padding: 30px 20px;
         width: calc((100% - 30px) / 2);
         font-size: 18px;
-        // background-image: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
     }
 
     .prices-item+.prices-item {
@@ -99,11 +77,3 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-screen and (min-resolution: 192dpi) and (min-width: 1200px),
-screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-    .prices {
-        // background-image: url(../images/services-and-prices/prices-img-deck@2x.png),
-            // linear-gradient(#111319, #111319);
-    }
-}

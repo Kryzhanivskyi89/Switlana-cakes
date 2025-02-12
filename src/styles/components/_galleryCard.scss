@@ -22,7 +22,6 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    // height: 200px;
     transition: 0.5s;
 }
 
@@ -43,7 +42,6 @@
 
 
 .container .card .face.face1 .content {
-    // opacity: 0.2;
     transition: 0.5s;
 }
 
@@ -96,12 +94,9 @@
 }
 
 img {
-    // position: absolute;
     top: 0;
     height: 110%;
     width: 450px;
-    // z-index: -1;
-    // transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
     @media screen and (min-width: 768px) {
         width: 350px;

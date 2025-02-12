@@ -4,19 +4,12 @@ body {
     width: 100%;
     background-color: #FEFEFE;
     color: var(--text);
-    // display: grid;
-    //     grid-template-rows: 1fr 10rem auto;
-    //     grid-template-areas: "header" "main" "footer";
-    //     overflow-x: hidden;
-    //     min-height: 100vh;
-        
     font-family: "Montserrat", sans-serif;
 }
 
 body.modal-open {
     overflow: hidden;
 }
-
 
 .list {
     padding: 0;
