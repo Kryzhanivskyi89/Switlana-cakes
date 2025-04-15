@@ -23,7 +23,13 @@
                 <li class=contact-item>
                     <h3 class=contact-title>Соціальні мережі:</h3>
                     <div class=contact__socialLinkWrapper>
-                        <a class=contact__socialLink aria-label="open facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100021661202474">
+                        <a 
+                            class=contact__socialLink 
+                            aria-label="open facebook" 
+                            target="_blank" 
+                            href="https://www.facebook.com/profile.php?id=100021661202474"
+                            onclick="gtag('event', 'click_facebook')"
+                         >
                             <!-- <svg class="social__svg" width="30px" height="20px">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg> -->
@@ -34,7 +40,13 @@
                             </svg>
                         </a>
                         
-                        <a class=contact__socialLink aria-label="open instagram" target="_blank" href="https://www.instagram.com/switlana_cake/">
+                        <a 
+                            class=contact__socialLink 
+                            aria-label="open instagram" 
+                            target="_blank" 
+                            href="https://www.instagram.com/switlana_cake/" 
+                            onclick="gtag('event', 'click_instagram', {'event_category': 'outbound', 'event_label': 'instagram_link'})"
+                        >
                             <!-- <svg class="social__svg" width="30px" height="20px">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg> -->
@@ -62,7 +74,7 @@
                 </li>
             </ul>
         
-            <form class=contact__form id="contactForm">
+            <form class=contact__form id="contactForm" onsubmit="gtag('event', 'contact_form_submit')">
                 <fieldset class=contact__labelsWrapper>
                     <h3 class=contact__formTitle>
                         Зробити замовлення
@@ -82,7 +94,7 @@
                             as="textarea" />
                     </label>
                 </fieldset>
-                <button class=contact__formSubmit type="submit">
+                <button class=contact__formSubmit type="submit" >
                     Відправити
                 </button>
             </form>

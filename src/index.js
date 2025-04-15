@@ -4,3 +4,4 @@ import './js/timer';
 import './js/galleryApi';
 import './js/galleryCard';
 import './js/form';
+import './js/scroll';
