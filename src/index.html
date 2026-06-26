@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <!-- Google Tag Manager -->
@@ -13,23 +13,48 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Авторські торти та десерти на замовлення у Києві. Весільні, дитячі, святкові торти. Індивідуальний підхід, натуральні інгредієнти. Switlana Cake — кондитер у Солом’янському районі." />
+    <meta name="description" content="Авторські торти та десерти на замовлення у Києві. Весільні, дитячі та святкові торти, капкейки, трайфли й макаруни від Switlana Cake у Солом’янському районі." />
+    <meta name="theme-color" content="#fff7f1" />
+    <link rel="canonical" href="https://switlana-cakes.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="uk_UA" />
+    <meta property="og:title" content="Switlana Cake — авторські торти на замовлення у Києві" />
+    <meta property="og:description" content="Торти, капкейки, трайфли та десерти для днів народження, весіль і сімейних свят. Індивідуальний дизайн, натуральні інгредієнти, Київ." />
+    <meta property="og:url" content="https://switlana-cakes.vercel.app/" />
+    <meta property="og:image" content="./images/hero/1x/1desk@1x.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Switlana Cake — авторські торти на замовлення у Києві" />
+    <meta name="twitter:description" content="Індивідуальні торти та десерти у Солом’янському районі Києва." />
+    <meta name="twitter:image" content="./images/hero/1x/1desk@1x.jpg" />
     <title>Торти на замовлення Київ | Switlana Cake — кондитер Солом’янський район</title>
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NVPGVZJ5Q"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-9NVPGVZJ5Q');
-    </script> -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Switlana Cake",
+      "description": "Авторські торти та десерти на замовлення у Києві: торти, капкейки, трайфли, макаруни та святкові десерти.",
+      "url": "https://switlana-cakes.vercel.app/",
+      "telephone": "+380983974983",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "вул. Джохара Дудаєва, 6",
+        "addressLocality": "Київ",
+        "addressCountry": "UA"
+      },
+      "areaServed": "Київ",
+      "servesCuisine": "Кондитерські вироби",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100021661202474",
+        "https://www.instagram.com/switlana_cake/"
+      ]
+    }
+    </script>
 </head>
-
 
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -38,25 +63,22 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header>
-        <include src="./partials/header.html"></include>
-    </header>
+    <include src="./partials/header.html"></include>
     <main>
-        
         <include src="./partials/hero.html"></include>
-        <!-- <include src="./partials/actions.html"></include> -->
         <include src="./partials/about.html"></include>
         <include src="./partials/advantages.html"></include>
+        <include src="./partials/order-flow.html"></include>
+        <include src="./partials/fillings.html"></include>
         <include src="./partials/gallery.html"></include>
-        <include src="./partials/price.html"></include>
+        <!-- <include src="./partials/price.html"></include> -->
+        <include src="./partials/faq.html"></include>
         <include src="./partials/contacts.html"></include>
-        
     </main>
     <footer>
         <include src="./partials/footer.html"></include>
     </footer>
-    
+
     <script type="module" src="./index.js"></script>
-    
 </body>
 </html>

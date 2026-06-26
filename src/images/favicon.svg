@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Switlana Cake favicon">
+  <rect width="64" height="64" rx="18" fill="#fff7f1"/>
+  <path d="M18 30h28v13a8 8 0 0 1-8 8H26a8 8 0 0 1-8-8V30Z" fill="#c8603a"/>
+  <path d="M20 28c0-7 5.4-13 12-13s12 6 12 13H20Z" fill="#f1c7b7"/>
+  <path d="M24 28c2-4 4.5-6 8-6s6 2 8 6" fill="none" stroke="#7a3f2c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="14" r="4" fill="#e8a0a7"/>
+</svg>

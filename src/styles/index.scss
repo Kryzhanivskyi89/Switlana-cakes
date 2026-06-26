@@ -6,11 +6,14 @@
 @use 'components/mobile-menu';
 @use 'components/modal.scss';
 @use 'components/hero';
-@use 'components/gallery';
-@use 'components/galleryCard';
 @use 'components/about';
 @use 'components/advantages';
+@use 'components/order-flow';
+@use 'components/fillings';
+@use 'components/gallery';
+@use 'components/galleryCard';
 @use 'components/actions';
 @use 'components/price';
+@use 'components/faq';
 @use 'components/contacts';
 @use 'components/footer';

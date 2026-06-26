@@ -1,65 +1,69 @@
 :root {
-    // --header-footer-bg: #98E0C2;
-    // --maim-bg-color-and-border: rgba(255, 229, 80, 1);
-    
-    // --title-color-text: #2C2C2C;
-    // --link-activ-color: rgba(187, 243, 48, 1);
-    // --button-color: #BBF330;
-    // --foter-text-color: rgba(126, 177, 1, 1);
-    // --modal-eror-text: #FE6060;
+    --color-bg:           #fff8f2;
+    --color-surface:      #fffdf9;
+    --color-surface-2:    #fff0e8;
+    --color-surface-3:    #f9dfd3;
+    --color-border:       rgba(136, 82, 55, 0.18);
+    --color-divider:      rgba(136, 82, 55, 0.12);
+    --color-text:         #332018;
+    --color-text-muted:   #765748;
+    --color-text-faint:   #aa8878;
+    --color-text-inverse: #fffaf5;
+    --color-accent:       #b85f48;
+    --color-accent-hover: #97462f;
+    --color-accent-deep:  #6f2e21;
+    --color-accent-light: #fde7dd;
+    --color-rose:         #eab7ad;
+    --color-cream:        #fff2dc;
+    --color-secondary:    #e3b483;
+    --color-success:      #277a4d;
+    --color-error:        #b42318;
 
-    // --purple: #e197ce;
-    // --red: #bc1792;
-    // --blue: #61cbc5;
-    // --background: #f1f2f6;
-    // --text: #5c5c5c;
+    /* Legacy aliases */
+    --header: var(--color-accent);
+    --footer: var(--color-text);
+    --text: var(--color-text);
+    --background: var(--color-bg);
+    --social-icon: var(--color-accent);
+    --form: var(--color-secondary);
+    --button-border: var(--color-accent);
+    --button: var(--color-accent-light);
+    --button-hover: var(--color-accent-hover);
+    --akcent: var(--color-accent);
+    --akcent-graphic: var(--color-surface-2);
 
-    // --header: #FFD3B4;
-    // --footer: #8B5E34;/*  */
-    // --text: #333333; /*  */
-    // --background: #F5F5F5;  
-    
-    // // Додаткові кольори: 
-    // --social-icon: #FF8C42; 
-    // --form: #D1A578;
-    
-    // // • Кнопки: 
-    // --button-border: #FF8C42; 
-    // --button: #E0E0E0;
+    --font-display: 'Playfair Display', 'Georgia', serif;
+    --font-body:    'Montserrat', 'Helvetica Neue', sans-serif;
 
-    // // • Ховер ефекти: 
-    // --text-hover: #7c7c7c;
-    // --button-hover: #FFB347;
+    --text-xs:   clamp(0.75rem,  0.72rem + 0.18vw, 0.875rem);
+    --text-sm:   clamp(0.875rem, 0.83rem + 0.22vw, 1rem);
+    --text-base: clamp(1rem,     0.96rem + 0.25vw, 1.125rem);
+    --text-lg:   clamp(1.125rem, 1.04rem + 0.55vw, 1.45rem);
+    --text-xl:   clamp(1.6rem,   1.24rem + 1.7vw, 2.6rem);
+    --text-2xl:  clamp(2.25rem,  1.42rem + 3.6vw, 4.75rem);
 
-    // // Акцентні кольори: 
-    // --akcent: #D87F6A; 
-    // --akcent-graphic: #FFECD6; /* Акценти в графіці (наприклад, бордери або деталі зображень) (теплий кремовий). */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
 
+    --radius-sm: 0.45rem;
+    --radius-md: 0.9rem;
+    --radius-lg: 1.35rem;
+    --radius-xl: 2rem;
+    --radius-full: 9999px;
 
-        --header: #FFB284;/* Насичений персиковий */
-        --footer: #A0663C;/* Насичений теплий коричневий */
-        --text: #2D2D2D; /* Глибокий темний графіт */
-        --background: #F5F5F5;
-    
-        // Додаткові кольори:
-        --social-icon: #FF6B24;/* Насичений оранжево-червоний */
-        --form: #E3B788;/* Теплий золотистий беж */
-    
-        // Кнопки:
-        --button-border: #FF6B24; /* Такий же як соц. іконки */
-        --button: #FFE4D0; /* Світлий кремовий */
-    
-        // Ховер ефекти:
-        --text-hover: #555555;/* Середній графіт */
-        --button-hover: #FF9259;/* Яскравий абрикосовий */
-    
-        // Акцентні кольори:
-        --akcent: #E5634F; /* Соковитий червоний-оранжевий */
-        // --akcent: #FF4B37;
-        // --akcent: #FF3D2E;
-        // --akcent: #FF5733;
-        // --akcent: #FC4836;
-        --akcent-graphic: #FFF3E0; /* Молочно-кремовий для графічних деталей */
+    --shadow-sm: 0 0.25rem 1rem rgba(51, 32, 24, 0.07);
+    --shadow-md: 0 0.9rem 2.5rem rgba(51, 32, 24, 0.11);
+    --shadow-lg: 0 1.5rem 5rem rgba(51, 32, 24, 0.18);
 
+    --transition: 220ms cubic-bezier(0.16, 1, 0.3, 1);
     --animation-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

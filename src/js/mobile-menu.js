@@ -2,26 +2,40 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const menuLinks = document.querySelectorAll('.js-menu-container a');
 
-  const toggleMenu = () => {
-    const isMenuOpen =
-      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-    mobileMenu.classList.toggle('is-open');
+  if (!mobileMenu || !openMenuBtn || !closeMenuBtn) return;
 
-    const scrollLockMethod = !isMenuOpen
-      ? 'disableBodyScroll'
-      : 'enableBodyScroll';
-    bodyScrollLock[scrollLockMethod](document.body);
+  const openMenu = () => {
+    mobileMenu.classList.add('is-open');
+    mobileMenu.setAttribute('aria-hidden', 'false');
+    openMenuBtn.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('modal-open');
   };
 
-  openMenuBtn.addEventListener('click', toggleMenu);
-  closeMenuBtn.addEventListener('click', toggleMenu);
-
-  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-    if (!e.matches) return;
+  const closeMenu = () => {
     mobileMenu.classList.remove('is-open');
-    openMenuBtn.setAttribute('aria-expanded', false);
-    bodyScrollLock.enableBodyScroll(document.body);
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    openMenuBtn.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('modal-open');
+  };
+
+  openMenuBtn.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.contains('is-open');
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  closeMenuBtn.addEventListener('click', closeMenu);
+  menuLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && mobileMenu.classList.contains('is-open')) {
+      closeMenu();
+      openMenuBtn.focus();
+    }
+  });
+
+  window.matchMedia('(min-width: 1024px)').addEventListener('change', event => {
+    if (event.matches) closeMenu();
   });
 })();

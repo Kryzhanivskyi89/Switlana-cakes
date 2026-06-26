@@ -1,67 +1,86 @@
 .footer {
-    background: var(--footer);
-    padding-bottom: 20px;
+    background:
+        radial-gradient(circle at 0% 0%, rgba(184, 95, 72, 0.26), transparent 24rem),
+        var(--color-text);
+    color: var(--color-text-inverse);
 }
 
-.footerContent {
+.footer-inner {
+    display: grid;
+    gap: clamp(2rem, 5vw, 3rem);
+    padding-block: clamp(3rem, 6vw, 5rem);
 
-    @media screen and (max-width: 767px) {
-        padding-top: 20px;
-        display: block;
-        justify-content: center;
-        place-items: center;
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr auto auto;
+        align-items: start;
     }
+}
+
+.footer-brand .logo-text {
+    color: var(--color-text-inverse);
+
+    em {
+        color: var(--color-secondary);
+    }
+}
+
+.footer-tagline {
+    max-width: 28ch;
+    margin-top: 0.8rem;
+    color: rgba(255, 250, 245, 0.68);
+    font-size: var(--text-sm);
+    line-height: 1.65;
 }
 
 .footer-navigation {
-    display: block;
-    place-items: center;
-    margin-top: 20px;
-    margin-right: 20px;
-    
-    @media screen and (min-width: 768px) {
-        display: flex;
-        justify-content: center;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.footer-navigation-item .navigation_link {
+    min-height: 2rem;
+    color: rgba(255, 250, 245, 0.72);
+
+    &:hover,
+    &:focus-visible {
+        color: var(--color-secondary);
     }
 }
 
-.social {
+.footer-social .wrapper {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.65rem;
 }
 
-.wrapper {
-    list-style: none;
-    width: 70px;
-    
-    @media screen and (min-width: 768px) {
-        display: flex;
-        justify-content: center;
-    }
-}
-
- .icon {
-    margin: 10px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
+.footer-social .icon a {
+    display: inline-flex;
     align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    justify-content: center;
+    width: 2.6rem;
+    min-width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid rgba(255, 250, 245, 0.2);
+    border-radius: var(--radius-full);
+    color: rgba(255, 250, 245, 0.7);
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+        border-color: var(--color-accent);
+        background: var(--color-accent);
+        color: var(--color-text-inverse);
+        transform: translateY(-0.1rem);
+    }
 }
 
-.develop {
+.footer-bottom {
+    border-top: 1px solid rgba(255, 250, 245, 0.12);
+    padding-block: 1rem;
     text-align: center;
 }
 
-.andrewDev {
-    margin-left: 4px;
-    color: var(--text);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.andrewDev:hover {
-    color: var(--social-icon);
+.footer-copy {
+    color: rgba(255, 250, 245, 0.54);
+    font-size: var(--text-xs);
 }
